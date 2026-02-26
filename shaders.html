@@ -49,6 +49,19 @@
 			onmouseenter="ShaderPreview.getById('timeTripping').play()"
 			onmouseleave="ShaderPreview.getById('timeTripping').pause()">
 		</div>
+		<div
+			id="mousetest"
+			class="glcontainer"
+			style="margin: 25px 25px; width: 500px; height: 500px"
+
+			data-shader-use-mouse-uniforms
+			data-shader-src="shaders/mousetest.frag"
+
+			data-uniform-f-inverse-mode-contrast="0"
+
+			onmouseenter="ShaderPreview.getById('mousetest').play()"
+			onmouseleave="ShaderPreview.getById('mousetest').pause()">
+		</div>
 		<script src="scripts/webgl.js"></script>
 	</body>
 </html>
